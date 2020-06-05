@@ -62,7 +62,7 @@ class URLShortener(object):
 	def make_tiny(self):
 		full_url = self.typeurl_input_box.get()
 		if not full_url:
-			self.message = 'Please type a url'
+			self.message = 'Please type a URL'
 			self.show_results_text.set(self.message)
 		else:
 			url = full_url.strip()
